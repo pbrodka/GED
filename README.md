@@ -17,9 +17,9 @@ The repository includes the MS SQL Script with GED method - V_0.1 (2011)
 2. For each timeframe calculate the communities (extract groups) using any group detection method. The GED method was tested for Clique Percolation Method and The Louvain Method
 3. For each group and each timeframe calculate the user importance measure e.g. degree centrality, betweenness centrality, closeness centrality, page rank, social position, etc.
 4. Create a new database in Microsoft SQL Server, download and run the SQL script
-5. ort your data into Groups_with_importance_measure table
-6. cute the GED procedure e.g. EXEC [dbo].[GED]
-7.  results can be found in GED_evolution table
-8. lyse and enjoy :)
+5. Import your data into Groups_with_importance_measure table
+6. Execute the GED procedure e.g. EXEC [dbo].[GED]
+7. The results can be found in GED_evolution table
+8. Analyse and enjoy :)
 
 GED implementationin Python (https://github.com/iit-Demokritos/community-Tracking-GED) Diakidis, Georgios, et al. who used GED in the article Predicting the evolution of communities in social networks Proceedings of the 5th International Conference on Web Intelligence, Mining and Semantics. ACM, 2015.
